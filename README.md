@@ -23,12 +23,12 @@ It provides user management, role-based access control (RBAC), and protected API
 ## 📂 Project Structure
 
 authcore/
-│
-├── main.py
-├── models/        # Database models (coming soon)
-├── routes/        # API routes (coming soon)
-├── services/      # Business logic (coming soon)
-└── README.md
+|
+|-- main.py
+|-- models/        # Database models
+|-- routes/        # API routes
+|-- services/      # Business logic
+|_ README.md
 
 ## ⚙️ Installation
 
@@ -61,9 +61,11 @@ uvicorn main:app --reload
 
 ## Future Improvements
 
-- JWT authentication
+- ~~JWT authentication~~
 - Database integration (PostgreSQL)
 - Password hashing (bcrypt)
 - Role & permission system expansion
 - Unit and integration tests
+- Create Dependencies for token & Admin logic
+- Clean up any vulnerabilities
 
