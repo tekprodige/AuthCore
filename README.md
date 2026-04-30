@@ -1,6 +1,6 @@
-# AuthCore API
-Developed by: Kervin Philippe (tekprodige)
+# AuthCore
 
+Developed by: Kervin Philippe (tekprodige)
 
 AuthCore API is a backend authentication and authorization system built with FastAPI.  
 It provides user management, role-based access control (RBAC), and protected API routes.
@@ -39,7 +39,7 @@ git clone https://github.com/tekprodige/AuthCore.git
 cd authcore
 ```
 
-2. Create a virtual environment:
+1. Create a virtual environment:
 
 ```bash
 python -m venv venv
@@ -47,13 +47,13 @@ source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
 ```
 
-3. Install dependencies:
+1. Install dependencies:
 
 ```bash
 pip install fastapi uvicorn
 ```
 
-4. Run the Server:
+1. Run the Server:
 
 ```bash
 uvicorn main:app --reload
@@ -66,3 +66,4 @@ uvicorn main:app --reload
 - Password hashing (bcrypt)
 - Role & permission system expansion
 - Unit and integration tests
+
